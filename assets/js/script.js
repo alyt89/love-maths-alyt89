@@ -17,10 +17,17 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 })
 
+/** The main game loop that begins when
+ * the DOM has finished loading and after the users
+ * answer has been processed.
+ */
 
 function runGame() {
+let num1 = Math.floor(Math.random() * 25) + 1;
+let num2 = Math.floor(Math.random() * 25) + 1;
 
 }
+
 
 function checkAnswer() {
     
@@ -49,3 +56,4 @@ function displaySubtractionQuestion() {
 function displayMultiplyQuestion() {
     
 }
+
